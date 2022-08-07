@@ -1,3 +1,13 @@
+## Installation
+Execute the following from a terminal window inside the project folder (where Dockerfile is located)
+```bash
+  docker build --rm -t sg-tech-test -f Dockerfile ..
+```
+then
+```bash
+  docker run -p 44319:44319 sg-tech-test
+```
+The api will then be accessible via http://localhost:44319
 
 ## API Reference
 
